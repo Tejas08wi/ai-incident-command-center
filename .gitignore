@@ -1,0 +1,51 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# Spring Boot local configuration
+**/src/main/resources/application.properties
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# Java / Maven
+# =========================
+target/
+backend/target/
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
