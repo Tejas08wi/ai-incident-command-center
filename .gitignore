@@ -5,8 +5,7 @@
 .env.*
 !.env.example
 
-# Spring Boot local configuration
-**/src/main/resources/application.properties
+
 
 # =========================
 # Python
